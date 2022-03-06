@@ -38,14 +38,14 @@ body {
 }
 
 .container-grid {
-  width: 80%;
+  width: 78%;
   margin: auto;
   display: grid;
-  gap: 1rem;
+  gap: 1.5rem;
   grid-template-areas:
     "big big small0 aside"
     "small1 big2 big2 aside";
-  grid-template-rows: 275px 275px;
+  grid-template-rows: 270px 270px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
