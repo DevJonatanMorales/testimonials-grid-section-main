@@ -18,7 +18,7 @@ body {
   align-items: center;
   font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 13px;
-  background-color: var(--LightGray);
+  background-color: var(--LightGrayishBlue);
 }
 
 .ModerateViole {
@@ -38,14 +38,14 @@ body {
 }
 
 .container-grid {
-  width: 75%;
+  width: 80%;
   margin: auto;
   display: grid;
   gap: 1rem;
   grid-template-areas:
     "big big small0 aside"
     "small1 big2 big2 aside";
-  grid-template-rows: 260px 260px;
+  grid-template-rows: 275px 275px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
@@ -125,7 +125,7 @@ body {
 }
 
 .text-dark {
-  color: var(--VeryDarkGrayishBlue);
+  color: var(--LightGray);
 }
 
 .attribution {
